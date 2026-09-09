@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-27T13:05:03Z",
+  "lastUpdated": "2026-09-09T02:07:39Z",
   "testSummary": {
-    "total": 100,
-    "passed": 100,
+    "total": 99,
+    "passed": 99,
     "failed": 0,
     "skipped": 0,
     "successRate": 1.00
@@ -161,7 +161,7 @@
       "name": "decentralized-identity",
       "aiken": "passed",
       "scalus": "not-implemented",
-      "ccl-java+aiken": "passed",
+      "ccl-java+aiken": "not-implemented",
       "ccl-java+scalus": "not-implemented",
       "meshjs+aiken": "passed",
       "meshjs+scalus": "not-implemented",
@@ -360,14 +360,15 @@
       "@meshsdk/core-csl": "1.9.1",
       "@meshsdk/common": "1.9.1",
       "@evolution-sdk/lucid": "2.0.1",
-      "cardano-client-lib": "0.8.0-pre4",
+      "cardano-client-lib": "0.8.0-pre5",
       "pycardano": "0.19.2"
     },
     "outdated": [
       "aiken-compiler",
       "@meshsdk/core",
       "@meshsdk/core-csl",
-      "@meshsdk/common"
+      "@meshsdk/common",
+      "cardano-client-lib"
     ]
   }
 }
